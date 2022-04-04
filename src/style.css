@@ -1,0 +1,1015 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen  and (max-width: 480px){
+    .header{
+        height: 10vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #1d232e
+    }
+    .upper{
+        margin: 10px;
+        font-size: xx-large;
+        color: white
+    }
+    .fa-solid{
+        font-size: xx-large;
+        margin-left: 10px;
+        color: aqua
+       
+
+    }
+    .navbar{
+        height: 10vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #1d232e;
+        margin-top: -2px;
+        z-index: 100;
+
+    }
+    .link{
+        color: white;
+        font-size: large;
+        font-family: cursive;
+        
+    }
+    .about{
+        height: 100vh;
+    }
+    
+    .project{
+        height: 100vh;
+        
+    }
+    .intro{
+        height: 30vh;
+        background-color: #1d232e;
+        margin-top: -2px;
+        position: relative;
+    }
+    .box{
+        position: absolute;
+        bottom: 10%;
+    }
+    .text1{
+        color: white;
+        font-family: cursive;
+        margin-left: 0.7em;
+        background-image: linear-gradient(60deg, #E21143, #FFB03A);
+        background-clip: text;
+        color: transparent;
+    }
+    
+    .text2{
+        color: antiquewhite;
+        margin-top: 1em;
+        margin-left: 1.3em;
+        letter-spacing: 1px;
+        background-image: linear-gradient(320deg, #E21143, #FFB03A);
+        background-clip: text;
+        color: transparent;
+    }
+    .about{
+        height: 50vh;
+        background-color: #1d232e;
+        margin-top: -2px;
+    }
+    .line{
+        height: 2px;
+        width: 14%;
+        background-image: linear-gradient(to right, #fc03f0, #1293e3);
+        margin-left: 5%;
+        position: relative;
+        top: 20px;
+        
+    }
+    .aboutme{
+        color: white;
+        margin-top: 12%;
+        margin-left: 6%;
+        font-family: cursive;
+        background-image: linear-gradient(320deg, #E21143, #FFB03A);
+        background-clip: text;
+        color: transparent;
+    }
+
+    
+    .aboutme1{
+        color: #787d8a;
+        margin-left: 6%;
+        margin-top: 5%;
+        letter-spacing: 1px;
+    }
+    .tech{
+        height: 205vh;
+        background-color: #1d232e;
+        margin-top: -2px;
+    }
+    .techme{
+        color: white;
+        margin-top: 12%;
+        margin-left: 6%;
+        font-family: cursive;
+        background-image: linear-gradient(320deg, #E21143, #FFB03A);
+        background-clip: text;
+        color: transparent;
+    }
+
+    
+    .icons{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .box1{
+        text-align: center;
+    }
+    .middle{
+        font-size: 130px;
+        margin: 2rem;
+        color: #040a4a;
+        margin-bottom: 10px;
+    }
+    
+    .middle1{
+        font-size: 130px;
+        margin: 2rem;
+        color: #040a4a;
+
+    }
+    .middle2{
+        font-size: 130px;
+        margin: 2rem;
+       
+
+    }
+    .middle3{
+        font-size: 130px;
+        margin: 2rem;
+        color: white;
+    }
+    .middle4{
+        font-size: 130px;
+        margin: 2rem;
+       
+    }
+    .middle5{
+        font-size: 130px;
+        margin: 2rem;
+        color: white;
+    }
+    .box1>h2{
+        color: white;
+        font-family: cursive;
+
+    }
+    .project{
+        height: 200vh;
+        background-color: #1d232e;
+        margin-top: -2px;
+
+    }
+    .card{
+        height: 90vh;
+        margin-top: 2rem;
+        position: relative;
+
+    }
+    .image1{
+        width: 100%;
+        height: 30vh;
+        background-image: url(./img1.png);
+        background-position: center;
+        background-size: cover;
+    }
+    .line2{
+        width: 20%;
+        height: 2px;
+        background-color: yellow;
+        margin-top: 1.3rem;
+        margin-left: 40%;
+    }
+    .stack{
+        margin-top: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .stack>div{
+        color: #1293e3;
+
+    }
+    .button{
+        height: 3rem;
+        width:8rem;
+        border: none;
+        font-size: large;
+        cursor: pointer;
+        color: white;
+        position: absolute;
+        left: 32%;
+        margin-top:4rem;
+        background-image: linear-gradient(to right, #fc03f0, #1293e3);
+    }
+    .image2{
+        width: 100%;
+        height: 30vh;
+        background-image: url(./img2.png);
+        background-position: center;
+        background-size: cover;
+
+    }
+    .endline{
+        width: 80%;
+        height: 1px;
+        background-color: grey;
+       position: relative;
+       bottom: 5px;
+       left: 10%
+    }
+    .contact{
+        height: 50vh;
+        background-color:#1d232e ;
+        margin-top: -2px;
+    }
+    .contact1{
+        display: flex;
+        flex-direction: row;
+        margin-left: 2em;
+        position: relative;
+        top: 20%;
+        
+    }
+    .email{
+        margin-left: 20px;
+    }
+    .call>h5, .email>h5{
+        color: white;
+        font-family: sans-serif;
+    }
+    .email > a{
+        text-decoration: none;
+        color: white;
+    }
+    .call{
+        margin: 2px;
+    }
+    .span{
+        color: grey;
+        position: relative;
+        top: 30%;
+        left: 5px;
+    }
+    .icon3{
+        position: relative;
+        top: 50%;
+        left: 30%;
+    }
+    .button2{
+        height: 3rem;
+        width: 11rem;
+        background-image: linear-gradient(to right, #fc03f0, #1293e3); 
+        border: none;
+        font-size: large;
+        margin-left: 1.5rem;
+        margin-top: 1rem;
+        cursor: pointer;
+    }
+    .button2>a{
+        text-decoration: none;
+        color: white;
+    }
+    .animation{
+        position: relative;
+       bottom: 55px;
+       
+    }
+    
+    
+}
+
+@media only screen  and (min-width: 1025px) and (max-width : 1280px){
+    .header{
+        height: 10vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #1d232e
+    }
+    .upper{
+        margin: 1rem;
+        margin-right: 3rem;
+        font-size: xx-large;
+        color: white
+    }
+    .upper:hover{
+        
+        transform: scale(1.1);
+       
+    }
+    .fa-solid{
+        font-size: xx-large;
+        margin-left: 2.5rem;
+        color: aqua
+       
+
+    }
+    .fa-solid:hover{
+        transform: scale(1.6);
+        transition: all 0.5s;
+
+    }
+    .fa-solid:not(:hover){
+        transform: scale(1);
+        transition: all 0.5s;
+
+
+    }
+    .navbar{
+        height: 10vh;
+        width: 40vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #1d232e;
+        position: absolute;
+        top: 0px;
+        left: 10%;
+       
+    }
+    .link{
+        color: white;
+        font-size: large;
+        font-family: cursive;
+        cursor: pointer;
+    }
+    .intro{
+        height: 100vh;
+        background-color: #1d232e;
+        margin-top: -2px;
+        position: relative;
+    }
+    .box{
+        position: absolute;
+       top: 20%;
+    }
+    .text1{
+        color: white;
+        font-family: cursive;
+        margin-left: 5rem;
+        font-size: 70px;
+        background-image: linear-gradient(60deg, #E21143, #FFB03A);
+        background-clip: text;
+        color: transparent;
+    }
+    .text2{
+        color: #7b8f8e;
+        margin-top: 1em;
+        margin-left: 5rem;
+        letter-spacing: 1px;
+        font-size: x-large;
+        font-family: sans-serif;
+        background-image: linear-gradient(320deg, #E21143, #FFB03A);
+        background-clip: text;
+        color: transparent;
+
+
+    }
+    
+    .animation{
+        height: 43%;
+        width: 43%;
+        position: absolute;
+        right: 8%;
+        top: 8%;
+    }
+    .about{
+        height: 70vh;
+        background-color: #1d232e;
+        margin-top: -2px;
+    }
+    .line{
+        height: 4px;
+        width: 7%;
+        background-image: linear-gradient(to right, #fc03f0, #1293e3);
+        margin-left: 5%;
+        position: relative;
+        top: 20px;
+        
+    }
+    .aboutme{
+        color: white;
+        margin-top: 3%;
+        margin-left: 5%;
+        font-family: cursive;
+        font-size: xxx-large;
+        background-image: linear-gradient(320deg, #E21143, #FFB03A);
+        background-clip: text;
+        color: transparent;
+
+    }
+    .aboutme1{
+        color: #7b8f8e;
+        margin-left: 5%;
+        margin-top: 2%;
+        letter-spacing: 1px;
+        font-size: x-large;
+        line-height: 40px;
+        font-family: sans-serif;
+        background-image: linear-gradient(60deg, white, grey);
+        background-clip: text;
+        color: transparent;
+
+    }
+    .button2{
+        height: 3rem;
+        width: 11rem;
+        background-image: linear-gradient(to right, #fc03f0, #1293e3); 
+        border: none;
+        font-size: large;
+        margin-left: 4rem;
+        margin-top: 2rem;
+        cursor: pointer;
+    }
+    .button2>a{
+        text-decoration: none;
+        color: white;
+    }
+    .tech{
+        height: 80vh;
+        background-color: #1d232e;
+        margin-top: -2px;
+    }
+    .techme{
+        color: white;
+        margin-top: 3%;
+        margin-left: 5%;
+        font-family: cursive;
+        font-size: xxx-large;
+        background-image: linear-gradient(320deg, #E21143, #FFB03A);
+        background-clip: text;
+        color: transparent;
+
+
+    }
+    .icons{
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        margin-left: 30px;
+        margin-top: 5%;
+    }
+    .box1{
+        text-align: center;
+    }
+    .middle{
+        font-size: 136px;
+        margin: 2rem;
+        color: #040a4a;
+        margin-bottom: 10px;
+    }
+    
+    .middle1{
+        font-size: 115px;
+        margin: 2rem;
+        color: #040a4a;
+
+    }
+    .middle2{
+        font-size: 115px;
+        margin: 2rem;
+       
+
+    }
+    .middle3{
+        font-size: 115px;
+        margin: 2rem;
+        color: white;
+    }
+    .middle4{
+        font-size: 115px;
+        margin: 2rem;
+       
+    }
+    .middle5{
+        font-size: 115px;
+        margin: 2rem;
+        color: white;
+    }
+    .box1>h2{
+        color: white;
+        font-family: cursive;
+
+    }
+    .project{
+        height: 130vh;
+        background-color: #1d232e;
+        margin-top: -2px;
+
+    }
+    .card{
+        height: 90vh;
+        width: 30vw;
+        margin-top: 2rem;
+        position: relative;
+        border: 1px solid transparent;
+        background-color: #131414;
+        box-shadow:  white 0px 1px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 2px 6px, rgba(0, 0, 0, 0.17) 0px 2px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        
+
+    }
+    .image1{
+        width: 100%;
+        height: 30vh;
+        background-image: url(./img1.png);
+        background-position: top;
+        background-size: cover;
+    }
+    .line2{
+        width: 20%;
+        height: 2px;
+        background-color: yellow;
+        margin-top: 1.3rem;
+        margin-left: 40%;
+    }
+    .stack{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .stack>div{
+        color: #1293e3;
+
+    }
+    .button{
+        height: 3rem;
+        width:8rem;
+        border: none;
+        font-size: large;
+        cursor: pointer;
+        color: white;
+        position: absolute;
+        left: 32%;
+        margin-top:2rem;
+        background-image: linear-gradient(to right, #fc03f0, #1293e3);
+    }
+    .image2{
+        width: 100%;
+        height: 30vh;
+        background-image: url(./img2.png);
+        background-position: top;
+        background-size: cover;
+
+    }
+    .endline{
+        width: 80%;
+        height: 1px;
+        background-color: grey;
+       position: relative;
+       top: 15%;
+     
+       left: 10%
+    }
+    .cardflex{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+       
+        
+    }
+    .card2{
+        margin-top: 30px;
+    }
+    .contact{
+        height: 50vh;
+        background-color:#1d232e ;
+        margin-top: -2px;
+    }
+    .contact1{
+        display: flex;
+        flex-direction: row;
+        margin-left: 8.5em;
+        position: relative;
+        top: 25%;
+        
+    }
+    .email{
+        margin-left: 20px;
+    }
+
+    .span{
+        color: grey;
+        position: relative;
+        top:45%;
+        left: 8.7em;
+    }
+    .icon3{
+        position: relative;
+        top: 29%;
+       left: 71.5%;
+        width: 22vw;
+    }
+    .icon3>a{
+        margin: -12px;
+    }
+    .email > a{
+        text-decoration: none;
+        color: cadetblue;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       
+
+    }
+    .email > a:hover{
+        color: black;
+    
+       }
+    .call> h5{
+        margin: 4.7px;
+        font-family: cursive;
+        color: white;
+    }
+    .email>h5{
+        margin: 3px;
+        font-family: cursive;
+        color: white;
+    }
+    #number{
+        color: cadetblue;
+        font-family: Arial, Helvetica, sans-serif !important;
+    }
+    
+
+
+
+    
+}
+
+@media only screen  and (min-width: 1281px){
+    .header{
+        height: 10vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #1d232e
+    }
+    .upper{
+        margin: 1rem;
+        margin-right: 3rem;
+        font-size: xx-large;
+        color: white
+    }
+    .upper:hover{
+        
+        transform: scale(1.1);
+       
+    }
+    .fa-solid{
+        font-size: xx-large;
+        margin-left: 2.5rem;
+        color: aqua
+       
+
+    }
+    .fa-solid:hover{
+        transform: scale(1.6);
+        transition: all 0.5s;
+
+    }
+    .fa-solid:not(:hover){
+        transform: scale(1);
+        transition: all 0.5s;
+
+
+    }
+    .navbar{
+        height: 10vh;
+        width: 40vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #1d232e;
+        position: absolute;
+        top: 0px;
+        left: 10%;
+       
+    }
+    .link{
+        color: white;
+        font-size: large;
+        font-family: cursive;
+        cursor: pointer;
+    }
+    .intro{
+        height: 100vh;
+        background-color: #1d232e;
+        margin-top: -2px;
+        position: relative;
+    }
+    .box{
+        position: absolute;
+       top: 20%;
+    }
+    .text1{
+        color: white;
+        font-family: cursive;
+        margin-left: 5rem;
+        font-size: 70px;
+        background-image: linear-gradient(60deg, #E21143, #FFB03A);
+        background-clip: text;
+        color: transparent;
+    }
+    .text2{
+        color: #7b8f8e;
+        margin-top: 1em;
+        margin-left: 5rem;
+        letter-spacing: 1px;
+        font-size: x-large;
+        font-family: sans-serif;
+        background-image: linear-gradient(320deg, #E21143, #FFB03A);
+        background-clip: text;
+        color: transparent;
+
+
+    }
+    
+    .animation{
+        height: 43%;
+        width: 43%;
+        position: absolute;
+        right: 8%;
+    }
+    .about{
+        height: 70vh;
+        background-color: #1d232e;
+        margin-top: -2px;
+    }
+    .line{
+        height: 4px;
+        width: 7%;
+        background-image: linear-gradient(to right, #fc03f0, #1293e3);
+        margin-left: 5%;
+        position: relative;
+        top: 20px;
+        
+    }
+    .aboutme{
+        color: white;
+        margin-top: 3%;
+        margin-left: 5%;
+        font-family: cursive;
+        font-size: xxx-large;
+        background-image: linear-gradient(320deg, #E21143, #FFB03A);
+        background-clip: text;
+        color: transparent;
+
+    }
+    .aboutme1{
+        color: #7b8f8e;
+        margin-left: 5%;
+        margin-top: 2%;
+        letter-spacing: 1px;
+        font-size: x-large;
+        line-height: 40px;
+        font-family: sans-serif;
+        background-image: linear-gradient(60deg, white, grey);
+        background-clip: text;
+        color: transparent;
+
+    }
+    .button2{
+        height: 3rem;
+        width: 11rem;
+        background-image: linear-gradient(to right, #fc03f0, #1293e3); 
+        border: none;
+        font-size: large;
+        margin-left: 4rem;
+        margin-top: 2rem;
+        cursor: pointer;
+    }
+    .button2>a{
+        text-decoration: none;
+        color: white;
+    }
+    .tech{
+        height: 80vh;
+        background-color: #1d232e;
+        margin-top: -2px;
+    }
+    .techme{
+        color: white;
+        margin-top: 3%;
+        margin-left: 5%;
+        font-family: cursive;
+        font-size: xxx-large;
+        background-image: linear-gradient(320deg, #E21143, #FFB03A);
+        background-clip: text;
+        color: transparent;
+
+
+    }
+    .icons{
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        margin-left: 30px;
+        margin-top: 5%;
+    }
+    .box1{
+        text-align: center;
+    }
+    .middle{
+        font-size: 152px;
+        margin: 2rem;
+        color: #040a4a;
+        margin-bottom: 10px;
+    }
+    
+    .middle1{
+        font-size: 130px;
+        margin: 2rem;
+        color: #040a4a;
+
+    }
+    .middle2{
+        font-size: 130px;
+        margin: 2rem;
+       
+
+    }
+    .middle3{
+        font-size: 130px;
+        margin: 2rem;
+        color: white;
+    }
+    .middle4{
+        font-size: 130px;
+        margin: 2rem;
+       
+    }
+    .middle5{
+        font-size: 130px;
+        margin: 2rem;
+        color: white;
+    }
+    .box1>h2{
+        color: white;
+        font-family: cursive;
+
+    }
+    .project{
+        height: 130vh;
+        background-color: #1d232e;
+        margin-top: -2px;
+
+    }
+    .card{
+        height: 90vh;
+        width: 30vw;
+        margin-top: 2rem;
+        position: relative;
+        border: 1px solid transparent;
+        background-color: #131414;
+        box-shadow:  white 0px 1px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 2px 6px, rgba(0, 0, 0, 0.17) 0px 2px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        
+
+    }
+    .image1{
+        width: 100%;
+        height: 30vh;
+        background-image: url(./img1.png);
+        background-position: top;
+        background-size: cover;
+    }
+    .line2{
+        width: 20%;
+        height: 2px;
+        background-color: yellow;
+        margin-top: 1.3rem;
+        margin-left: 40%;
+    }
+    .stack{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .stack>div{
+        color: #1293e3;
+
+    }
+    .button{
+        height: 3rem;
+        width:8rem;
+        border: none;
+        font-size: large;
+        cursor: pointer;
+        color: white;
+        position: absolute;
+        left: 32%;
+        margin-top:2rem;
+        background-image: linear-gradient(to right, #fc03f0, #1293e3);
+    }
+    .image2{
+        width: 100%;
+        height: 30vh;
+        background-image: url(./img2.png);
+        background-position: top;
+        background-size: cover;
+
+    }
+    .endline{
+        width: 80%;
+        height: 1px;
+        background-color: grey;
+       position: relative;
+       top: 15%;
+     
+       left: 10%
+    }
+    .cardflex{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+       
+        
+    }
+    .card2{
+        margin-top: 30px;
+    }
+    .contact{
+        height: 50vh;
+        background-color:#1d232e ;
+        margin-top: -2px;
+    }
+    .contact1{
+        display: flex;
+        flex-direction: row;
+        margin-left: 8.5em;
+        position: relative;
+        top: 25%;
+        
+    }
+    .email{
+        margin-left: 20px;
+    }
+
+    .span{
+        color: grey;
+        position: relative;
+        top:45%;
+        left: 8.7em;
+    }
+    .icon3{
+        position: relative;
+        top: 29%;
+       left: 76.4%;
+        width: 22vw;
+    }
+    .icon3>a{
+        margin: -12px;
+    }
+    .email > a{
+        text-decoration: none;
+        color: cadetblue;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       
+
+    }
+    .email > a:hover{
+        color: black;
+    
+       }
+    .call> h5{
+        margin: 4.7px;
+        font-family: cursive;
+        color: white;
+    }
+    .email>h5{
+        margin: 3px;
+        font-family: cursive;
+        color: white;
+    }
+    #number{
+        color: cadetblue;
+        font-family: Arial, Helvetica, sans-serif !important;
+    }
+    
+        
+
+
+    
+}
+
