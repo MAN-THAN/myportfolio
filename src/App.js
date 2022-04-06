@@ -9,7 +9,7 @@ import Technology from './Technology'
 
 const App = () => {
   return (
-    <div>
+    <div className='body'>
         <Header />
         <Navbar/>
         <Intro/>
