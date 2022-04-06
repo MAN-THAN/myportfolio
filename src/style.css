@@ -66,6 +66,7 @@
         background-image: linear-gradient(60deg, #E21143, #FFB03A);
         background-clip: text;
         color: transparent;
+        font-size: 35px;
     }
     
     .text2{
@@ -99,6 +100,7 @@
         background-image: linear-gradient(320deg, #E21143, #FFB03A);
         background-clip: text;
         color: transparent;
+        font-size: 35px;
     }
 
     
@@ -121,6 +123,7 @@
         background-image: linear-gradient(320deg, #E21143, #FFB03A);
         background-clip: text;
         color: transparent;
+        font-size: 35px;
     }
 
     
@@ -288,8 +291,8 @@
         color: white;
     }
     .animation{
-        position: relative;
-       bottom: 55px;
+        display: none;
+       
        
     }
     
