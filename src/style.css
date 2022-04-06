@@ -80,6 +80,8 @@
         background-image: linear-gradient(320deg, #E21143, #FFB03A);
         background-clip: text;
         color: transparent;
+        font-size:medium ;
+        font-family: cursive;
     }
     .about{
         height: 50vh;
